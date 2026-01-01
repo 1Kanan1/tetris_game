@@ -3,7 +3,8 @@
   "packages": [
     "clang@latest",
     "ninja@latest",
-    "meson@latest"
+    "meson@latest",
+    "entr@latest"
   ],
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
