@@ -7,10 +7,12 @@ project('tetris', 'c',
 )
 
 sdl3 = dependency('sdl3')
+sdl3_image = dependency('sdl3_image')
+
 env = get_option('environment')
 
 tetris = executable('tetris', 'src/main.c',
-  dependencies: sdl3,
+  dependencies: [sdl3, sdl3_image],
   c_args: '-D' + env.to_upper() # allows to use DEV, TEST, and PROD in if-statement
 )
 
