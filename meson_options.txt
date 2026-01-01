@@ -1,0 +1,6 @@
+option('environment',
+  type: 'combo',
+  choices: ['dev', 'test', 'prod'],
+  value: 'dev',
+  description: 'Target environment'
+)

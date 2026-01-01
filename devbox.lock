@@ -49,65 +49,121 @@
         }
       }
     },
-    "cmake@latest": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-12-05T06:24:47Z",
+      "resolved": "github:NixOS/nixpkgs/42e29df35be6ef54091d3a3b4e97056ce0a98ce8?lastModified=1764915887"
+    },
+    "meson@latest": {
       "last_modified": "2025-11-23T21:50:36Z",
-      "resolved": "github:NixOS/nixpkgs/ee09932cedcef15aaf476f9343d1dea2cb77e261#cmake",
+      "resolved": "github:NixOS/nixpkgs/ee09932cedcef15aaf476f9343d1dea2cb77e261#meson",
       "source": "devbox-search",
-      "version": "4.1.2",
+      "version": "1.9.1",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/0v5vpvwbl94qv9447jz995i4n9mx4l63-cmake-4.1.2",
+              "path": "/nix/store/3fmfcckwb9wdh89bz7ikx1c6d5dplk8y-meson-1.9.1",
               "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/vsj1rxq8srnhn0p7f26fi8ivhhl14x3l-meson-1.9.1-dist"
             }
           ],
-          "store_path": "/nix/store/0v5vpvwbl94qv9447jz995i4n9mx4l63-cmake-4.1.2"
+          "store_path": "/nix/store/3fmfcckwb9wdh89bz7ikx1c6d5dplk8y-meson-1.9.1"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/ipjw0mbzcycidbw62gsz47cgivqxm2lv-cmake-4.1.2",
+              "path": "/nix/store/9dwvigw7j55skibj9z6cwvjp2bhgvi7s-meson-1.9.1",
               "default": true
             },
             {
-              "name": "debug",
-              "path": "/nix/store/4m6l2qb5s7vyirybbn3c5k1rv2dww1vy-cmake-4.1.2-debug"
+              "name": "dist",
+              "path": "/nix/store/5773678alv45gdx8qgzjqpd7y6j14pj6-meson-1.9.1-dist"
             }
           ],
-          "store_path": "/nix/store/ipjw0mbzcycidbw62gsz47cgivqxm2lv-cmake-4.1.2"
+          "store_path": "/nix/store/9dwvigw7j55skibj9z6cwvjp2bhgvi7s-meson-1.9.1"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/i7c7r2g0zycvi7wh3rnw1dx3aglbvw2d-cmake-4.1.2",
+              "path": "/nix/store/4qid7ph4r208dxjcr2mbi0yd9gac4qp7-meson-1.9.1",
               "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/xmpbpz8rh3ysc5yzss6xzhihpbrf9fy0-meson-1.9.1-dist"
             }
           ],
-          "store_path": "/nix/store/i7c7r2g0zycvi7wh3rnw1dx3aglbvw2d-cmake-4.1.2"
+          "store_path": "/nix/store/4qid7ph4r208dxjcr2mbi0yd9gac4qp7-meson-1.9.1"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/w9jm660dykns6hzrdhxmqfywnc9ail8g-cmake-4.1.2",
+              "path": "/nix/store/f8gicbns4hymkc8k82h6c1cnz4pjs7ip-meson-1.9.1",
               "default": true
             },
             {
-              "name": "debug",
-              "path": "/nix/store/pnizhra0882ijp3nilvzdzbaa0ayq4hd-cmake-4.1.2-debug"
+              "name": "dist",
+              "path": "/nix/store/q09nqipikfmp4pjaxhw9sh8755xxs1yj-meson-1.9.1-dist"
             }
           ],
-          "store_path": "/nix/store/w9jm660dykns6hzrdhxmqfywnc9ail8g-cmake-4.1.2"
+          "store_path": "/nix/store/f8gicbns4hymkc8k82h6c1cnz4pjs7ip-meson-1.9.1"
         }
       }
     },
-    "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2025-12-05T06:24:47Z",
-      "resolved": "github:NixOS/nixpkgs/42e29df35be6ef54091d3a3b4e97056ce0a98ce8?lastModified=1764915887"
+    "ninja@latest": {
+      "last_modified": "2025-11-23T21:50:36Z",
+      "resolved": "github:NixOS/nixpkgs/ee09932cedcef15aaf476f9343d1dea2cb77e261#ninja",
+      "source": "devbox-search",
+      "version": "1.13.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6y79vrqachzns4pgl8r0j04b7g33hl52-ninja-1.13.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6y79vrqachzns4pgl8r0j04b7g33hl52-ninja-1.13.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jpwn5zii6bzpvf9dm4dw7cdvwychpxwz-ninja-1.13.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jpwn5zii6bzpvf9dm4dw7cdvwychpxwz-ninja-1.13.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/82kdfnd09s2npwlsnqzak29nf592czr6-ninja-1.13.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/82kdfnd09s2npwlsnqzak29nf592czr6-ninja-1.13.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nib1r4k4cqph7zjjnbfc1d6cbg11qr76-ninja-1.13.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nib1r4k4cqph7zjjnbfc1d6cbg11qr76-ninja-1.13.1"
+        }
+      }
     }
   }
 }
