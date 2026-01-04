@@ -1,5 +1,5 @@
 build:
-	meson setup build
+	meson setup build -Dbuildtype=debugoptimized
 	meson compile -C build
 
 run: build
